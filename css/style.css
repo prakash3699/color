@@ -1,0 +1,58 @@
+h1{
+	text-align:center;
+	font-variant:small-caps;
+	color:#820000;
+	animation:mymove 3s infinite;
+}
+
+@keyframes mymove{
+	50% {color:#6C00FF;}
+}
+
+h2{
+	color:#3C6255;
+    font-family: 'Pacifico', cursive;
+}
+
+.three{
+	color:#3C6255;
+}
+
+.four{
+	color:#3C6255;
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.col-1{
+	width:30.7%;
+	background-image:linear-gradient(#9DF1DF,#F5EA5A);
+	border-radius:30px;
+}
+
+.col-2{
+	width:30.9%;
+	background-image:linear-gradient(to right, rgba(255,0,0,0),rgba(255,0,0,1));
+	margin-left:50px;
+	margin-right:50px;
+	border-radius:30px;
+}
+
+.col-3{
+	width:30.9%;
+    background-image:linear-gradient(0deg,teal,pink);
+	border-radius:30px;
+}
+
+body{
+	background:#ECE8DD;
+}
+
+.image{
+	margin-left:auto;
+	margin-right:auto;
+	opacity:0.5;
+}	
